@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ['latin'] })
 const faviconSvg = `
 <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="32" height="32" rx="6" fill="#4a148c"/>
-  <path d="M8 10V22H12V15L16 22L20 15V22H24V10H20L16 17L12 10H8Z" fill="white"/>
-  <path d="M24 22V10H20V22H24Z" fill="white"/>
+  <path d="M8 10V22H12V14L16 20L20 14V22H24V10H20L16 16L12 10H8Z" fill="white"/>
+  <path d="M24 10V22H20V10H24Z" fill="white"/>
 </svg>
 `
 
