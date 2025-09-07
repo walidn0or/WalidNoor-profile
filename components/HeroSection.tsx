@@ -75,7 +75,7 @@ export default function HeroSection() {
               className="enhanced-glass p-4 sm:p-6 rounded-2xl"
             >
               <p className="text-base sm:text-lg text-gray-200 leading-relaxed">
-                I don't just market products—I help shape them. Through strategic collaboration with product designers 
+                I don't just market products, I help shape them. Through strategic collaboration with product designers 
                 and cross-functional teams, I create cohesive brand narratives that drive engagement and measurable growth.
               </p>
             </motion.div>
