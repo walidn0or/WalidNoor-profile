@@ -51,19 +51,19 @@ export default function AboutSection() {
               variants={itemVariants}
               className="text-lg text-gray-300 leading-relaxed"
             >
-              As a Marketing Team Lead and Social Media Manager at <span className="text-white font-semibold">blissio.ai</span>, 
-              I'm passionate about learning and growing in the digital marketing space. My journey combines hands-on experience 
-              in content creation—including videography and editing—with strategic thinking to build meaningful brand connections.
+              Digital Marketing Lead who bridges the gap between marketing vision and product reality. At <span className="text-white font-semibold">blissio.ai</span>, 
+              I don't just market the product, I help shape it. By partnering directly with product designers on UX flows and feature ideation, 
+              I ensure our campaigns are deeply aligned with a user-centric product experience, creating a cohesive and powerful brand narrative from the inside out.
             </motion.p>
             <br />
             <motion.p 
               variants={itemVariants}
               className="text-lg text-gray-300 leading-relaxed"
             >
-              Through my roles at blissio.ai and my previous experience as Graphic Designer and Social Media Manager at 
-              <span className="text-white font-semibold"> Dursa Handicrafte</span>, I've developed skills in creative storytelling 
-              and social media strategy. I'm committed to continuous learning and applying new techniques to create authentic, 
-              engaging content that resonates with audiences.
+              My expertise spans orchestrating data-driven social media strategies, leading cross-functional teams, and producing hands-on content, 
+              from videography and editing in Adobe Premiere Pro to graphic design, that drives engagement and growth. My journey from building 
+              the social presence for <span className="text-white font-semibold">Dursa Handicrafte</span> to my current leadership role has equipped me with a unique ability to craft 
+              compelling stories that resonate across all platforms and translate strategic goals into measurable results.
             </motion.p>
           </motion.div>
         </motion.div>

@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Portfolio - Beautiful Shader Experiences',
-  description: 'A stunning portfolio website with beautiful shader effects and modern design',
+  title: 'Walid Noor - Marketing Team Lead & Social Media Manager',
+  description: 'Professional portfolio of Walid Noor - Marketing Team Lead & Social Media Manager at blissio.ai. Specializing in social media strategy, content creation, and digital marketing.',
 }
 
 export default function RootLayout({

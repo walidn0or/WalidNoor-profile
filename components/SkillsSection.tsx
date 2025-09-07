@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { BarChart3, Video, Users, Palette, TrendingUp, Camera } from 'lucide-react'
+import { BarChart3, Video, Users, Palette, TrendingUp, Camera, Code, Globe, MessageSquare } from 'lucide-react'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -42,19 +42,24 @@ const skillVariants = {
 export default function SkillsSection() {
   const skillCategories = [
     {
-      title: "Strategy & Analytics",
-      icon: <BarChart3 className="w-8 h-8" />,
-      skills: ["Social Media Strategy", "Performance Analytics", "Campaign Management", "Data-Driven Insights"]
+      title: "Digital Marketing",
+      icon: <TrendingUp className="w-8 h-8" />,
+      skills: ["Social Media Management", "Content Strategy", "SEO Basics", "Campaign Management", "Performance Analytics", "Influencer Collaborations"]
+    },
+    {
+      title: "Design & Tech",
+      icon: <Palette className="w-8 h-8" />,
+      skills: ["Graphic Design (Photoshop)", "Video Editing (Adobe Premiere Pro)", "HTML/CSS", "JavaScript (Basic)", "Visual Storytelling", "Brand Design"]
     },
     {
       title: "Content Creation",
       icon: <Video className="w-8 h-8" />,
-      skills: ["Videography", "Video Editing (Adobe Premiere Pro)", "Graphic Design", "Visual Storytelling"]
+      skills: ["Videography", "Photography", "Trending Reels Production", "Podcast Creation", "Written Content", "Multi-channel Content"]
     },
     {
-      title: "Management",
+      title: "Management & Soft Skills",
       icon: <Users className="w-8 h-8" />,
-      skills: ["Team Leadership", "Project Management", "Client Relations", "Cross-functional Collaboration"]
+      skills: ["Team Leadership", "Project Collaboration", "Problem-Solving", "Cross-functional Teams", "Client Relations", "Community Management"]
     }
   ]
 
