@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  experimental: {
-    appDir: true,
-  },
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
@@ -10,6 +7,11 @@ const nextConfig = {
     }
     return config
   },
+  experimental: {
+    webpackBuildWorker: true
+  },
+  // Enable React Strict Mode for better development experience
+  reactStrictMode: true,
 }
 
 module.exports = nextConfig

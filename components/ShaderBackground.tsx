@@ -107,7 +107,7 @@ export default function ShaderBackground() {
       createFlowingShapes(time)
       
       // Add subtle particles
-      ctx.globalCompositeOperation = 'normal'
+      ctx.globalCompositeOperation = 'source-over' as GlobalCompositeOperation;
       for (let i = 0; i < 30; i++) {
         const x = (Math.sin(time * 0.0003 + i * 0.5) * canvas.width * 0.4) + canvas.width * 0.5
         const y = (Math.cos(time * 0.0005 + i * 0.3) * canvas.height * 0.4) + canvas.height * 0.5

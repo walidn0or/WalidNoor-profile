@@ -11,6 +11,19 @@ A stunning portfolio website built with Next.js featuring beautiful shader effec
 - **Interactive Elements**: Hover effects and smooth transitions
 - **Performance Optimized**: Built with Next.js 14 and TypeScript
 
+## 🚀 Live Demo
+
+[![Vercel](https://vercel.com/button)](https://walid-noor-profile-iln5.vercel.app/)
+
+**Primary URL:** https://walid-noor-profile-iln5.vercel.app/  
+**Alternative URL:** https://walid-noor-git-main-walidnoorafg-2856s-projects.vercel.app/
+
+## 📦 GitHub Repository
+
+```bash
+git clone https://github.com/walidn0or/WalidNoor-profile.git
+```
+
 ## 🚀 Getting Started
 
 ### Prerequisites
